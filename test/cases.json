@@ -1,0 +1,34 @@
+{
+ "tests": [
+  {
+   "in": {
+    "backlog": 500,
+    "link": 100,
+    "eff": 100,
+    "rate": 5
+   },
+   "v": {
+    "capGBh": 45,
+    "hours": 12.5
+   }
+  },
+  {
+   "in": {
+    "backlog": 500,
+    "link": 100,
+    "eff": 100,
+    "rate": 50
+   },
+   "v": {
+    "hours": null
+   }
+  },
+  {
+   "in": {
+    "backlog": 500,
+    "link": 0
+   },
+   "err": "link"
+  }
+ ]
+}
